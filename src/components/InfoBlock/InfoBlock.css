@@ -1,0 +1,48 @@
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dear-friends-and-family {
+    width: 100%;
+    background-color: #F9E9EA;
+    color: #814b57;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.important-event {
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 575px;
+    padding: 3%;
+}
+
+.special-day-message {
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 80%;
+}
+
+.special-day {
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+  }
