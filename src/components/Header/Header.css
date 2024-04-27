@@ -85,21 +85,21 @@
 /* Media query for phones */
 @media (max-width: 767px) {
     .header {
-        min-height: 10%;
+        min-height: 4%;
         
     }
     .invitation-text {
         margin: 10%;
         margin-bottom: 0;
-        font-size: 60px; /* Smaller font size for phones */
+        font-size: 50px; /* Smaller font size for phones */
     }
 
     .name {
-        font-size: 60px; /* Smaller font size for phones */
+        font-size: 50px; /* Smaller font size for phones */
         margin: 0 8%;
     }
 
     .and {
-        font-size: 6rem; /* Smaller font size for phones */
+        font-size: 5rem; /* Smaller font size for phones */
     }
 }
