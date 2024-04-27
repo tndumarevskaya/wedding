@@ -17,8 +17,8 @@
 .date-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3%;
-    margin: 10% 0;
+    gap: 4%;
+    margin: 6% 0;
 }
 
 .photo-container {
@@ -37,25 +37,25 @@
 }
 
 .lower-photo {
-    max-width: 100%;
+    max-width: 110%;
 }
 
 .date-time {
     position: absolute;
-    top: 10%;
-    left: -12%;
+    top: 12%;
+    left: -16%;
     color: rgba(0, 0, 0, 0.3);
     font-family: Poiret One, var(--default-font-family);
     font-size: 140px;
     font-weight: 400;
     text-align: center; 
-    letter-spacing: -12px;
+    letter-spacing: -14px;
 } 
 
 .excited-to-see-you {
     color: #814b57;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 400;
     text-align: center;
 }
@@ -63,8 +63,23 @@
 .memorable-day {
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 400;
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .footer {
+        margin: 6% 8%; 
+    }
+    
+    .date-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .date-time {
+        margin-top: 20px; 
+        letter-spacing: -8px; 
+        font-size: 100px;
+    }
+}

@@ -55,3 +55,23 @@
     font-weight: 400;
     text-align: center;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .dress-code .title {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .colors {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust grid columns for smaller screens */
+        gap: 1%; /* Decrease gap for smaller screens */
+    }
+
+    .dark-pink, .lighter-pink, .powder-pink, .peach, .lightest-pink {
+        min-height: 80px; /* Adjust min-height for smaller screens */
+    }
+
+    .color-guidelines {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}

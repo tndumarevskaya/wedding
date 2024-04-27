@@ -17,8 +17,6 @@
 }
 
 .important-event {
-    align-items: center;
-    justify-content: center;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
     font-size: 26px;
@@ -29,8 +27,6 @@
 }
 
 .special-day-message {
-    align-items: center;
-    justify-content: center;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
     font-size: 30px;
@@ -45,4 +41,24 @@
     font-size: 36px;
     font-weight: 400;
     text-align: center;
-  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .dear-friends-and-family {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .important-event {
+        font-size: 20px; /* Decrease font size for smaller screens */
+        max-width: 80%; /* Adjust max-width for smaller screens */
+    }
+
+    .special-day-message {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .special-day {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}

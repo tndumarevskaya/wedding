@@ -42,3 +42,25 @@
     max-width: 90%;
 }
   
+@media (max-width: 768px) {
+    .date-block {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .kiss-img {
+        max-width: 80%; /* Adjust max-width for smaller screens */
+    }
+
+    .save-the-date {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .date {
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+
+    .family-day {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}

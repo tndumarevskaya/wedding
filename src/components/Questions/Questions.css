@@ -106,6 +106,7 @@ input:checked {
     align-items: center;
     justify-content: flex-start;    
     color: #814b57;
+
     font-family: Poiret One, var(--default-font-family);
     font-size: 20px;
     font-weight: 400;
@@ -124,4 +125,35 @@ input:checked {
     padding: 10px 36px;
     cursor: pointer; 
     
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .answer-questions {
+        max-width: 80%; /* Adjust max-width for smaller screens */
+    }
+
+    .question-container {
+        padding: 3% 5%; /* Adjust padding for smaller screens */
+    }
+
+    .question-text {
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+
+    .options {
+        grid-template-columns: 1fr; /* Change to single column layout for smaller screens */
+    }
+
+    .option-text {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .send-button button {
+        padding: 10px 16px; /* Adjust padding for smaller screens */
+    }
 }

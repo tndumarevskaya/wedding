@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 45%; /* Set width for smaller screens */
 }
 
 .location-title {
@@ -30,6 +31,7 @@
     font-family: Poiret One, var(--default-font-family);
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
 }
 
 .address {
@@ -39,5 +41,28 @@
     font-size: 36px;
     font-weight: 400;
     text-align: center;
+}
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .location {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .map, .right-side {
+        width: 100%; /* Set full width for smaller screens */
+    }
+
+    .location-title {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .location-text {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .address {
+        font-size: 28px; /* Decrease font size for smaller screens */
+    }
 }
