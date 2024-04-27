@@ -6,6 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 708px;
+    /* min-height: 40%; */
     align-items: center;
     justify-content: center;
     padding: 134px auto;
@@ -83,15 +84,22 @@
 
 /* Media query for phones */
 @media (max-width: 767px) {
+    .header {
+        min-height: 10%;
+        
+    }
     .invitation-text {
-        font-size: 80px; /* Smaller font size for phones */
+        margin: 10%;
+        margin-bottom: 0;
+        font-size: 60px; /* Smaller font size for phones */
     }
 
     .name {
-        font-size: 1.5rem; /* Smaller font size for phones */
+        font-size: 60px; /* Smaller font size for phones */
+        margin: 0 8%;
     }
 
     .and {
-        font-size: 2rem; /* Smaller font size for phones */
+        font-size: 6rem; /* Smaller font size for phones */
     }
 }

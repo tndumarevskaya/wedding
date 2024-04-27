@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 6% 10%;
+    margin: 6% 16%;
 }
 
 .title {
@@ -26,6 +26,7 @@
 .question-container {
     background-color: #F9E9EA;
     text-align: center;
+    width: 100%;
     padding: 3% 12% ;
 }
 
@@ -78,8 +79,8 @@ input:checked {
     justify-content: center;
     align-items: center;
     margin-top: 4%;
-    width: 100%;
-    background: linear-gradient(transparent 25%, #F9E9EA 25% 80%);
+    /* width: 100%; */
+    background: linear-gradient(transparent 28%, #F9E9EA 28% 80%);
     padding-bottom: 2%;
 }
 
@@ -94,7 +95,11 @@ input:checked {
     /* width: 100%; */
 }
 
-.input-fields, .attendance-option{
+.confirm-presence, .input-fields, .attendance-option {
+    margin-bottom: 2%;
+}
+
+.input-fields, .attendance-option {
     width: 100%;
     padding: 1% 30%;
 }
@@ -126,6 +131,21 @@ input:checked {
     cursor: pointer; 
     
 }
+
+/* #full-name, #phone-number {
+    position: relative; 
+}
+
+#phone-number input[type="text"]::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #814b57; 
+} */
+
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {

@@ -7,8 +7,8 @@ export default function Header() {
         <span className='invitation-text'>ПРИГЛАШЕНИЕ НА СВАДЬБУ</span>
         <div className='names'>
             <span className='and'>&</span>
-            <span className='evgeny'>Евгений</span>
-            <span className='alexandra'>Александра</span>
+            <span className='name evgeny'>Евгений</span>
+            <span className='name alexandra'>Александра</span>
         </div>
     </div>
   )
