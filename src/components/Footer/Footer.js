@@ -18,7 +18,7 @@ export default function Footer() {
                     <br />
                     24
                 </span>
-                <img className='lower-photo' src={photo} alt='photo'/>
+                <img className='lower-photo' src={photo} alt='sasha and evgeny'/>
             </div >
             <div className='text-container'>
                 <span className='excited-to-see-you'>
