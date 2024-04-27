@@ -1,0 +1,70 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6% 14%;
+}
+
+.budget-contribution {
+    text-align: center;
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.date-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    margin: 10% 0;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.lower-photo {
+    max-width: 100%;
+}
+
+.date-time {
+    position: absolute;
+    top: 10%;
+    left: -12%;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 140px;
+    font-weight: 400;
+    text-align: center; 
+    letter-spacing: -12px;
+} 
+
+.excited-to-see-you {
+    color: #814b57;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.memorable-day {
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+

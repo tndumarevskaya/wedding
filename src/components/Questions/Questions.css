@@ -1,0 +1,127 @@
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6% 10%;
+}
+
+.title {
+    font-family: Cormorant Garamond, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 600;
+    color: #814b57;
+}
+
+.answer-questions {
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 40%;
+    margin: 3% 0;
+}
+
+.question-container {
+    background-color: #F9E9EA;
+    text-align: center;
+    padding: 3% 12% ;
+}
+
+.question-text {
+    font-family: Cormorant Garamond, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 100;
+    color: #814b57;
+}
+
+.options {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.option-text {
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 10px;
+    text-align: center;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000000;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+}
+
+
+input:checked {
+    border: 6px solid black;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    width: 100%;
+    background: linear-gradient(transparent 25%, #F9E9EA 25% 80%);
+    padding-bottom: 2%;
+}
+
+
+.confirm-presence {
+    color: #000000;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 40%;
+    /* width: 100%; */
+}
+
+.input-fields, .attendance-option{
+    width: 100%;
+    padding: 1% 30%;
+}
+
+#full-name, #phone-number {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+    color: #814b57;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.attendance-option .option-text {
+    font-size: 20px;
+}
+
+.send-button button{
+    background-color: transparent;
+    border: 1px #000000 solid;
+    font-family: Poiret One, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 36px;
+    cursor: pointer; 
+    
+}
