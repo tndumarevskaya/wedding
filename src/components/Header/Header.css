@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    max-height: 100vh;
     align-items: center;
     justify-content: center;
     padding: 8% 20%;
@@ -54,30 +54,34 @@
     right: 14vw;
 }
 
-@media (min-width: 720px) {
+@media (max-width: 720px) {
 
     .header {
-        min-height: 30vh;
+        max-height: 40vh;
     }
 
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
 
     .header {
-        min-height: 40vh;
+        max-height: 50vh;
     }
 }
 
-@media (min-width: 390px) {
+@media (max-width: 390px) {
 
     .header {
-        min-height: 20vh;
+        max-height: 30vh;
+    }
+
+    .invitation-text {
+        font-size: 11vw;
     }
 }
 
-@media (min-width: 100px) {
+@media (max-width: 100px) {
     .header {
-        min-height: 10vh;
+        max-height: 20vh;
     }
 }
