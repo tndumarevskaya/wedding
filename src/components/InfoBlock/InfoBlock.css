@@ -43,3 +43,41 @@
 }
 
 
+@media (max-width: 390px) {
+    .dear-friends-and-family {
+        font-size: 5.5vw;
+    }
+
+    .important-event {
+        font-size: 3.5vw;
+        padding: 3% 10%;
+    }
+
+    .special-day-message {
+        font-size: 4.6vw;
+    }
+
+    .special-day {
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .dear-friends-and-family {
+        font-size: 4vw;
+    }
+
+    .important-event {
+        font-size: 3.6vw;
+        padding: 3% 20%;
+    }
+
+    .special-day-message {
+        font-size: 4vw;
+    }
+
+    .special-day {
+        font-size: 4vw;
+        padding: 0 10%;
+    }
+}
