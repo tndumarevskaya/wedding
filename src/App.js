@@ -12,11 +12,11 @@ export default function App() {
     <div>
       <Header />
       <InfoBlock />
-      <Location />
+      {/* <Location />
       <Schedule />
       <DressCode />
       <Questions />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

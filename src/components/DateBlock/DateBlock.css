@@ -15,13 +15,13 @@
 }
 
 .kiss-img {
-    max-width: 45%;
+    max-width: 50vw;
 }
 
 .save-the-date {
     color: #814b57;
     font-family: Cormorant Garamond, var(--default-font-family);
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 600;
 }
 
@@ -29,7 +29,7 @@
     margin-top: 2%;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: 400;
 }
 
@@ -37,31 +37,22 @@
     margin-top: 6%;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 36px;
+    font-size: 1.9vw;
     font-weight: 400;
     text-align: center;
     max-width: 90%;
+    
 }
   
 @media (max-width: 768px) {
     .date-block {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        align-items: center; /* Center items horizontally */
-    }
-
-    .kiss-img {
-        max-width: 80%; /* Adjust max-width for smaller screens */
-    }
-
-    .save-the-date {
-        font-size: 40px; /* Decrease font size for smaller screens */
-    }
-
-    .date {
-        font-size: 30px; /* Decrease font size for smaller screens */
-    }
-
-    .family-day {
-        font-size: 24px; /* Decrease font size for smaller screens */
+        flex-direction: column; 
+        align-items: center; 
     }
 }
+
+/* @media (max-width: 390px) {
+    .kiss-img {
+        max-width: 100%;
+    }
+} */
