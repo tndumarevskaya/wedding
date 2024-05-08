@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    gap: 1%;
-    margin: 6% 10%;
+    margin: 6% 0;
 }
 
 .map {
-    width: 45%;
+    max-width: 40%;
+    margin-right: 6%;
 }
 
 .right-side {
@@ -15,13 +15,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 45%; /* Set width for smaller screens */
 }
 
 .location-title {
     color: #814b57;
     font-family: Cormorant Garamond, var(--default-font-family);
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 600;
 }
 
@@ -29,40 +28,48 @@
     margin-top: 2%;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 30px;
+    font-size: 1.9vw;
     font-weight: 400;
     text-align: center;
 }
 
 .address {
-    margin-top: 6%;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 36px;
+    font-size: 2.2vw;
     font-weight: 400;
     text-align: center;
+    margin: 6% 10%;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
     .location {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column;
+        align-items: center; 
     }
 
-    .map, .right-side {
-        width: 100%; /* Set full width for smaller screens */
+    .map {
+        max-width: 100%;
+        margin-right: 0;
+
     }
 
     .location-title {
-        font-size: 40px; /* Decrease font size for smaller screens */
+        font-size: 8vw;
     }
 
     .location-text {
-        font-size: 24px; /* Decrease font size for smaller screens */
+        font-size: 4.5vw;
     }
 
     .address {
-        font-size: 28px; /* Decrease font size for smaller screens */
+        font-size: 6vw;
+        margin: 6% 23%;
+    }
+}
+
+@media (max-width: 390px) {
+    .map {
+        max-width: 100%;
     }
 }
