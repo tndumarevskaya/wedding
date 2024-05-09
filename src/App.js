@@ -4,7 +4,7 @@ import InfoBlock from './components/InfoBlock/InfoBlock';
 import Location from './components/Location/Location';
 import Schedule from './components/Schedule/Schedule';
 import DressCode from './components/DressCode/DressCode';
-// import Questions from './components/Questions/Questions';
+import Questions from './components/Questions/Questions';
 // import Footer from './components/Footer/Footer';
 
 export default function App() {
@@ -15,8 +15,8 @@ export default function App() {
       <Location />
       <Schedule />
       <DressCode />
-      {/* <Questions />
-      <Footer /> */}
+      <Questions />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -45,7 +45,12 @@ export default function Questions() {
         </div>
         <div class="confirmation">
             <div class="confirm-presence">
-                Пожалуйста, подтвердите свое присутствие до 01.08.2024 любым удобным способом
+                <div className='not-pink-line'>
+                    Пожалуйста, подтвердите свое присутствие до 01.08.2024 
+                </div>
+                <div >
+                    любым удобным способом
+                </div>
             </div>
             <div class="input-fields">
                 <div class="input-field">
