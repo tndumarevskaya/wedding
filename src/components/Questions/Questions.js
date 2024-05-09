@@ -5,14 +5,17 @@ export default function Questions() {
   return (
     <div className='questions'>
         <span className='title'>QUESTIONS</span>
-        <span className='answer-questions'>
+        {/* <span className='answer-questions'>
             Просим Вас ответить на пару вопросов
-        </span>
+        </span> */}
         <div class="question-container">
-            <label class="question-text" for="beverage-preference">
+            {/* <label class="question-text" for="beverage-preference">
                 Что Вы предпочитаете из напитков?
-            </label>
-            <div class="options">
+            </label> */}
+            <div className="options">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGJJ6BcAOyUBVjf9NlSXrf7k2y7t8AQXGTMk7KaBHqpxJGSQ/viewform?embedded=true" width="640" height="1130" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+            </div>
+            {/* <div class="options">
                 <div class="option">
                     <input type="checkbox" id="sparkling" name="beverage" value="sparkling" />
                     <label class="option-text" for="sparkling">Игристое</label>
@@ -72,7 +75,7 @@ export default function Questions() {
             </div>
             <div class="send-button">
                 <button type="submit">Отправить</button>
-            </div>
+            </div> */}
         </div>
     </div>
   )
