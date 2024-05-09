@@ -17,7 +17,7 @@ export default function Questions() {
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdGJJ6BcAOyUBVjf9NlSXrf7k2y7t8AQXGTMk7KaBHqpxJGSQ/viewform?embedded=true"
                     width="640"
-                    height="1130"
+                    height="1190"
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
