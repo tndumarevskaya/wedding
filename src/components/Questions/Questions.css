@@ -200,12 +200,12 @@ input:checked {
 
     .input-fields, .attendance-option {
         width: 100%;
-        padding: 1% 20%;
+        padding: 1% 12%;
     }
 
     .send-button button { 
         font-size: 4vw;
         padding: 1vw 5vw;
-        border: 0.5px #000000 solid;
+        border: 1px #000000 solid;
     }
 }
