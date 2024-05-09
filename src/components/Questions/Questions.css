@@ -28,6 +28,7 @@
     background-color: #F9E9EA;
     /* text-align: center; */
     padding: 3% 15%;
+    max-height: 1400px;
 }
 
 .question-text {
@@ -40,6 +41,7 @@
 @media only screen and (max-width: 600px) {
     .question-container {
         padding: 0;
+        max-height: 1500px;
     }
 
     iframe {
