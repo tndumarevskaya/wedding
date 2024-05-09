@@ -10,7 +10,7 @@
     text-align: center;
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 30px;
+    font-size: 2.2vw;
     font-weight: 400;
 }
 
@@ -46,16 +46,16 @@
     left: -16%;
     color: rgba(0, 0, 0, 0.3);
     font-family: Poiret One, var(--default-font-family);
-    font-size: 140px;
+    font-size: 10vw;
     font-weight: 400;
     text-align: center; 
-    letter-spacing: -14px;
+    letter-spacing: -1.1vw;
 } 
 
 .excited-to-see-you {
     color: #814b57;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 42px;
+    font-size: 3vw;
     font-weight: 400;
     text-align: center;
 }
@@ -63,23 +63,42 @@
 .memorable-day {
     color: #000000;
     font-family: Poiret One, var(--default-font-family);
-    font-size: 26px;
+    font-size: 1.9vw;
     font-weight: 400;
     text-align: center;
 }
 
 @media (max-width: 768px) {
     .footer {
-        margin: 6% 8%; 
+        margin: 6% 6%; 
     }
     
     .date-container {
         grid-template-columns: 1fr;
     }
     
+    .lower-photo {
+        max-width: 106%;
+    }
+
     .date-time {
-        margin-top: 20px; 
-        letter-spacing: -8px; 
-        font-size: 100px;
+        position: absolute;
+        top: 17%;
+        left: -7%;
+        font-size: 20vw;
+        letter-spacing: -2vw;
+    }
+
+    .budget-contribution {
+        font-size: 3.5vw;
+    }
+
+    .excited-to-see-you { 
+        font-size: 6vw;
+    }
+
+    .memorable-day {
+        font-size: 4vw;
+        margin-top: 10%;
     }
 }

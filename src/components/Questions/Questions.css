@@ -136,6 +136,7 @@ input:checked {
     font-weight: 400;
     padding: 1vw 4vw;
     cursor: pointer; 
+    color: black;
 }
 
 
