@@ -13,7 +13,19 @@ export default function Questions() {
                 Что Вы предпочитаете из напитков?
             </label> */}
             <div className="options">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGJJ6BcAOyUBVjf9NlSXrf7k2y7t8AQXGTMk7KaBHqpxJGSQ/viewform?embedded=true" width="640" height="1130" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+                {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGJJ6BcAOyUBVjf9NlSXrf7k2y7t8AQXGTMk7KaBHqpxJGSQ/viewform?embedded=true" width="640" height="1130" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe> */}
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdGJJ6BcAOyUBVjf9NlSXrf7k2y7t8AQXGTMk7KaBHqpxJGSQ/viewform?embedded=true"
+                    width="640"
+                    height="1130"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="Опросный формуляр"
+                >
+                    Загрузка…
+                </iframe>
+
             </div>
             {/* <div class="options">
                 <div class="option">
