@@ -32,7 +32,7 @@
 .question-text {
     font-family: Cormorant Garamond, var(--default-font-family);
     font-size: 3vw;
-    font-weight: 100;
+    font-weight: 300;
     color: #814b57;
 }
 
@@ -110,6 +110,7 @@ input:checked {
     border: none;
     border-bottom: 1px solid black; 
     outline: none; 
+    margin: 4% 0;
 }
 
 #full-name, #phone-number {
@@ -136,6 +137,7 @@ input:checked {
     font-weight: 400;
     padding: 1vw 4vw;
     cursor: pointer; 
+    margin: 10% 0;
     color: black;
 }
 
@@ -146,8 +148,8 @@ input:checked {
     }
 
     .answer-questions {
-        max-width: 80%;
-        font-size: 4vw; 
+        max-width: 90%;
+        font-size: 5vw; 
     }
 
     .question-container {
@@ -155,12 +157,12 @@ input:checked {
     }
 
     .question-text {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     input[type="checkbox"], input[type="radio"] {
-        width: 3vw;
-        height: 3vw;
+        width: 4vw;
+        height: 4vw;
     }
 
     .options {
@@ -169,11 +171,11 @@ input:checked {
     }
 
     .option-text {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .confirm-presence {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .confirmation {
@@ -189,11 +191,11 @@ input:checked {
     }
 
     #full-name, #phone-number {
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     .attendance-option .option-text {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .input-fields, .attendance-option {
@@ -202,7 +204,7 @@ input:checked {
     }
 
     .send-button button { 
-        font-size: 3.6vw;
+        font-size: 4vw;
         padding: 1vw 5vw;
         border: 0.5px #000000 solid;
     }
