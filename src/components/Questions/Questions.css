@@ -11,6 +11,7 @@
     font-size: 4vw;
     font-weight: 600;
     color: #814b57;
+    margin-bottom: 2vw;
 }
 
 .answer-questions {
@@ -39,6 +40,10 @@
 @media only screen and (max-width: 600px) {
     iframe {
         max-width: 100%;
+    }
+
+    .title {
+        font-size: 9vw;
     }
 }
 
